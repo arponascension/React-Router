@@ -9,7 +9,7 @@ function AllUsers() {
             <div className="row">
                 <div className="col-sm-6">
                     <ul className="list-group">
-                        {[...Array(10).keys()].map((index) => (
+                        {[...Array(20).keys()].map((index) => (
                             <span key={index}>
                                 <NavLink className={`list-group-item `+(serachParams.get('id') == index ? `active` : ``)} to={`?id=${index}`}>
                                     User {index}
